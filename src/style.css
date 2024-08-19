@@ -1,0 +1,194 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  #app {
+      max-width: 100%;
+      padding: 10px;
+  }
+
+  .time {
+      margin-bottom: 5px;
+  }
+
+  .form {
+      flex-direction: column;
+      margin-bottom: 10px;
+  }
+
+  .inp-add-note {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .btn-add-note {
+      width: 100%;
+  }
+
+  .main {
+      flex-direction: column;
+      margin-bottom: 10px;
+  }
+
+  .methods {
+      margin-bottom: 5px;
+  }
+
+  .list {
+      max-height: 200px;
+  }
+
+  .list-note {
+      flex-direction: column;
+  }
+
+  .note {
+      margin-bottom: 5px;
+  }
+
+  .checkbox, .edit, .remove-note {
+      margin-left: 0;
+      margin-bottom: 5px;
+  }
+
+  .list-note .btn-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+  }
+
+  .list-note .btn-group .btn {
+      flex: 1;
+      margin-right: 5px;
+  }
+
+  .list-note .btn-group .btn:last-child {
+      margin-right: 0;
+  }
+}
+
+.container {
+  text-align: center;
+  color: #333;
+}
+
+.time {
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inp-add-note {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn-add-note {
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add-note:hover {
+  background-color: #4cae4c;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.methods {
+  padding: 5px 10px;
+  background-color: #f0ad4e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.methods:hover {
+  background-color: #ec971f;
+}
+
+h3 {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.list-note {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.note {
+  flex-grow: 1;
+  margin: 0;
+  word-break: break-all;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.checkbox {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+.edit, .remove-note {
+  padding: 5px 10px;
+  background-color: #5bc0de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit:hover, .remove-note:hover {
+  background-color: #31b0d5;
+}
