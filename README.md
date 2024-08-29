@@ -5,4 +5,7 @@ npm install
 <br>
 
 npm run dev
+## Demonstration
+<img src="/public/Demonstration.png">
 
+### Link to the website: 
