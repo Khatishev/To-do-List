@@ -10,7 +10,7 @@
       @toggleHideCompleted="toggleHideCompleted"
       @clearAll="clearAll"
     />
-    <h3>There are no notes, add the first one!</h3>
+    <h3 v-else >There are no notes, add the first one!</h3>
     <TodoList :todoList="filteredTodoList" @removeNote="removeNote" @editNote="editNote" />
   </div>
 </template>
