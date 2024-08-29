@@ -1,5 +1,11 @@
-# Vue 3 + Vite
+# To-do list
+A multifunctional application for recording important business or notes, useful for everyday use.<br> And the most important thing is simple and convenient!
+## Installation and launch
+npm install
+<br>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+npm run dev
+## Demonstration
+<img src="/public/Demonstration.png">
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+### Link to the website: https://to-do-list-iota-two-91.vercel.app
